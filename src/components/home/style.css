@@ -1,0 +1,31 @@
+.home {
+    padding: 10px;
+}
+
+.projectNameHeader {
+    color: aliceblue;
+}
+
+.projectLinksHeader {
+    color: aliceblue;
+}
+
+.link {
+    color: antiquewhite;
+    display: inline-block;
+    font-size: larger;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+.link:hover {
+    background-color: #666;
+}
+
+.projectDescription {
+    color: antiquewhite;
+}

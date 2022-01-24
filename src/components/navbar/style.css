@@ -1,0 +1,19 @@
+.navbar {
+    width: 100vw;
+    background-color: black;
+}
+
+.navlink {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+    color: aliceblue;
+    font-size: large;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    background-color: #666;
+}
