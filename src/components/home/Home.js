@@ -5,9 +5,11 @@ import { projectLinks, projectDescription } from '../../content';
 export const Home = ({}) => {
     return <div className="home">
         <h1 className="projectNameHeader">
-           FITR Skills
+            FITR Skills
         </h1>
-            <p className="projectDescription">{projectDescription}</p>
+        
+        <p className="projectDescription">{projectDescription}</p>
+        
         <h2 className="projectLinksHeader">
             Links
         </h2>

@@ -8,5 +8,5 @@ export const projectLinks = [
     {
         link: "http://www.fitrskills.com/",
         text: "FITRSkills",
-    }
+    },
 ];

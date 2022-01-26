@@ -2,12 +2,21 @@ import React from 'react';
 import { Navbar } from './components/navbar';
 import { Home } from './components/home';
 import { FourUp } from './components/fourUp';
+import { Time } from './components/time';
+import { Metrics } from './components/metrics';
+import { Plan } from './components/plan';
+import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
-    return <div className="app"> 
+    return <div className="app">
         <Navbar />
-        <Home />
-        {/* <FourUp /> */}
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="fourup" element={<FourUp />} />
+            <Route path="time" element={<Time />} />
+            <Route path="plan" element={<Plan />} />
+            <Route path="metrics" element={<Metrics />} />
+        </Routes>
     </div>
 };
 
