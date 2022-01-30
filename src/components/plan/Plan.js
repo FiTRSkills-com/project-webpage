@@ -1,9 +1,15 @@
 import React from 'react';
 import './style.css'
+import { projectPlan } from '../../content';
 
 export const Plan = ({}) => {
     return <div className="plan">
-        ¯\_(ツ)_/¯
+        {
+            projectPlan.map( (paragraph) => (
+                <p className='bodyText'>{paragraph}</p>
+            ))
+        }
+        
     </div>
 
 }

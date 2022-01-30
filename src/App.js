@@ -5,6 +5,7 @@ import { FourUp } from './components/fourUp';
 import { Time } from './components/time';
 import { Metrics } from './components/metrics';
 import { Plan } from './components/plan';
+import { Error } from './components/error';
 import { Routes, Route } from "react-router-dom";
 
 export const App = () => {
@@ -16,6 +17,7 @@ export const App = () => {
             <Route path="time" element={<Time />} />
             <Route path="plan" element={<Plan />} />
             <Route path="metrics" element={<Metrics />} />
+            <Route path='*' element={<Error />} />
         </Routes>
     </div>
 };

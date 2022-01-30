@@ -4,18 +4,21 @@ import { projectLinks, projectDescription } from '../../content';
 
 export const Home = ({}) => {
     return <div className="home">
-        <h1 className="projectNameHeader">
+        <h1 className="headerText">
             FITR Skills
         </h1>
         
-        <p className="projectDescription">{projectDescription}</p>
-        
-        <h2 className="projectLinksHeader">
+        {
+            projectDescription.map( (paragraph) => (
+                <p className='bodyText'>{paragraph}</p>
+            ))
+        }
+        <h2 className="headerText">
             Links
         </h2>
 
         {projectLinks.map( (linkObject, index) => (
-            <a key={index} className="link" href={linkObject.link} >
+            <a key={index} className="linkButton" href={linkObject.link} >
                 {linkObject.text}
             </a>
         ))}

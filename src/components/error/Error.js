@@ -3,7 +3,7 @@ import './style.css'
 
 export const Error = ({}) => {
     return <div className="error">
-        <p className="errorText"> ¯\_(ツ)_/¯ </p>
+        <p className="errorText"> Page not found ¯\_(ツ)_/¯ </p>
     </div>
 
 }

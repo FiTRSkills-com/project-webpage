@@ -1,4 +1,8 @@
-export const projectDescription = "¯\\_(ツ)_/¯";
+export const projectDescription = [
+    "this is one paragraph",
+    "This is another paragraph.",
+    "¯\\_(ツ)_/¯",
+];
 
 export const projectLinks = [
     {
@@ -9,4 +13,10 @@ export const projectLinks = [
         link: "http://www.fitrskills.com/",
         text: "FITRSkills",
     },
+];
+
+export const projectPlan = [
+    "this is one paragraph",
+    "This is another paragraph.",
+    "¯\\_(ツ)_/¯",
 ];
