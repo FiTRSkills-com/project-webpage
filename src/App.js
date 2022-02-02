@@ -13,6 +13,7 @@ export const App = () => {
         <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="project-webpage" element={<Home />} />
             <Route path="fourup" element={<FourUp />} />
             <Route path="time" element={<Time />} />
             <Route path="plan" element={<Plan />} />
